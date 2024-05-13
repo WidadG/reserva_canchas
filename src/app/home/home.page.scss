@@ -1,0 +1,29 @@
+ion-header {
+  ion-toolbar {
+    --background: #47f747; /* Cambia el color de fondo a verde claro */
+    border-radius: 15px; /* Ajusta el radio de los bordes según sea necesario */
+    padding: 0 10px; /* Agrega un relleno horizontal de 10px y un relleno vertical de 0 */
+  }
+
+  ion-title {
+    font-size: 22px; /* Cambia el tamaño de la fuente del texto */
+  }
+
+}
+
+.boton-siguiente {
+  margin-top: 20px; /* Ajusta la distancia entre el botón y el input según sea necesario */
+  margin-bottom: 20px; /* Ajusta la distancia entre el botón y el borde inferior de la pantalla según sea necesario */
+  --background: #47f747;
+}
+
+.verdeRedondeado{
+  --border-radius: 15px; /* Establece el radio de los bordes */
+  --background: #77ecb1; /* Establece el color de fondo */
+  --background-focused: #c2e5cc; /* Establece el color de fondo cuando el input está enfocado */
+}
+
+.labelEditado{
+  font-size: 25px;
+  margin-bottom: auto;
+}

@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Resumen
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Resumen de Información</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Nombre: {{ nombre }}</p>
+      <p>Deporte: {{ deporte }}</p>
+      <p>Cancha: {{ cancha }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<ion-row justify-content-center>
+  <ion-col size="12" size-md="6" size-lg="8">
+    <ion-button expand="full" (click)="verInformacion()" class="boton-siguiente">Ver información por consola</ion-button>
+  </ion-col>
+</ion-row>

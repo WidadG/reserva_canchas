@@ -1,0 +1,29 @@
+
+  <ion-header collapse="condense"> 
+    <ion-toolbar>
+      <ion-title class="ion-text-center">Reserva Canchas</ion-title>
+    </ion-toolbar>
+  </ion-header>
+<p></p>
+<ion-content [fullscreen]="true">
+  <ion-select placeholder="Selecciona un Deporte" [(ngModel)]="deporteSeleccionado" class="dropdown-centrado">
+    <ion-select-option value="Futbol">Futbol</ion-select-option>
+    <ion-select-option value="Padel">Padel</ion-select-option>
+    <ion-select-option value="Basquetbol">Basquetbol</ion-select-option>
+  </ion-select>
+<p> </p>
+  <ion-select placeholder="Selecciona una Cancha" [(ngModel)]="canchaSeleccionada" class="dropdown-centrado">
+    <ion-select-option value="Cancha 1 - Futbol">Cancha 1 - Futbol</ion-select-option>
+    <ion-select-option value="Cancha 2 - Futbol">Cancha 2 - Futbol</ion-select-option>
+    <ion-select-option value="Cancha 3 - Futbol">Cancha 3 - Futbol</ion-select-option>
+    <ion-select-option value=">Cancha 1 - Padel">Cancha 1 - Padel</ion-select-option>
+    <ion-select-option value="Cancha 2 - Padel">Cancha 2 - Padel</ion-select-option>
+    <ion-select-option value="Cancha 1 - Basquetbol">Cancha 1 - Basquetbol</ion-select-option>
+  </ion-select>
+</ion-content>
+<ion-row justify-content-center>
+  <ion-col size="12" size-md="6" size-lg="8">
+    <ion-button expand="full" (click)="guardarInformacion()" class="boton-siguiente">Siguiente</ion-button>
+  </ion-col>
+</ion-row>
+

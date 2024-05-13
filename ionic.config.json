@@ -1,0 +1,7 @@
+{
+  "name": "reserva_canchas",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
